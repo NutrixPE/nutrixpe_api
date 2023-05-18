@@ -12,6 +12,9 @@ public class UserService {
 
     @Autowired
     private UserRepository userRepository;
+    public void saveUser(User user) {
+        userRepository.save(user);
+    }
 
     public Optional<User> loginUser(String email, String password) {
         Optional<User> user = userRepository.findByEmailAndPassword(email, password);

@@ -50,7 +50,10 @@ public class UserController {
 
             final User updatedUser = userRepository.save(user);
             return ResponseEntity.ok(updatedUser);
-        }
+
+
+            }
+
 
         @DeleteMapping("/{id}")
         public Map<String, Boolean> deleteUser(@PathVariable(value = "id") Long userId)
