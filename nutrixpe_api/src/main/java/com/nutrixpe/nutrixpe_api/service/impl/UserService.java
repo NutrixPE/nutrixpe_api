@@ -1,6 +1,6 @@
 package com.nutrixpe.nutrixpe_api.service.impl;
 
-import com.nutrixpe.nutrixpe_api.controller.UserRepository;
+import com.nutrixpe.nutrixpe_api.repository.UserRepository;
 import com.nutrixpe.nutrixpe_api.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,7 @@
 package com.nutrixpe.nutrixpe_api.controller;
 
 import com.nutrixpe.nutrixpe_api.model.User;
+import com.nutrixpe.nutrixpe_api.repository.UserRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
